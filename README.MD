@@ -1,4 +1,5 @@
-#Seive of Eratosthenes
+# Seive of Eratosthenes
+
 This is a Seive of Eratosthenes implementation used to find prime numbers..
 I have successfully generated a 17gb file of prime numbers using this which ends
 in the prime 33906393741. This, not unexpectedly, took a long time due to the creation of such a large vector<bool> object, despite bit compression. 
