@@ -11,7 +11,7 @@ use bit_vec::BitVec;
 fn main() {
     
    let mut file = BufWriter::new(fs::File::create("primes.txt").unwrap());
-   let max: usize = 15485863;
+   let max: usize = 15485863; //millionth prime number - change if you want more!
    
    let mut bv = BitVec::from_elem(max, true);
    
