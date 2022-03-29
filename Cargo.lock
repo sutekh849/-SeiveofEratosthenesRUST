@@ -7,7 +7,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "349f9b6a179ed607305526ca489b34ad0a41aed5f7980fa90eb03160b69598fb"
 
 [[package]]
-name = "testproj"
+name = "seive_of_eratosthenes"
 version = "0.1.0"
 dependencies = [
  "bit-vec",
